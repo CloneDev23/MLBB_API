@@ -63,7 +63,7 @@ function herodetails(name) {
                                       hp: attrib[12].replace('● HP',''),
                                       mana: attrib[13].replace('● Mana',''),
                                       hp_regen: attrib[14].replace('● HP Regen',''),
-                                      mana_regen: attrib[15].replace('● Mana Regen',''),
+                                      mana_regen: attrib[15].replace('● Mana  Regen',''),
                                       physical_attack: attrib[16].replace('● Physical Attack',''),
                                       magic_power: attrib[17].replace('● Magic Power',''),
                                       physical_defence: attrib[18].replace('● Physical Defense',''),
