@@ -60,11 +60,11 @@ function herodetails(name) {
                                       chara
                                  },
                                  attributes: {
-                                      hp: attrib[12].replace(''),
-                                      mana: attrib[13].replace('',''),
-                                      hp_regen: attrib[14].replace('',''),
-                                      mana_regen: attrib[15].replace('',''),
-                                      physical_attack: attrib[16].replace('',''),
+                                      hp: attrib[12].replace('● HP',''),
+                                      mana: attrib[13].replace('● MANA',''),
+                                      hp_regen: attrib[14].replace('● HP REGEN',''),
+                                      mana_regen: attrib[15].replace('● MANA REGEN',''),
+                                      physical_attack: attrib[16].replace('● PHYSICAL ATTACK',''),
                                       magic_power: attrib[17].replace('',''),
                                       physical_defence: attrib[18].replace('',''),
                                       magic_defence: attrib[19].replace('',''),
