@@ -60,18 +60,17 @@ function herodetails(name) {
                                       chara
                                  },
                                  attributes: {
-                                      movement_speed: attrib[12].replace('● Movement Speed',''),
-                                      physical_attack: attrib[13].replace('● Physical Attack',''),
-                                      magic_power: attrib[14].replace('● Magic Power',''),
-                                      attack_speed: attrib[15].replace('● Attack Speed',''),
-                                      physical_defense: attrib[16].replace('● Physical Defense',''),
-                                      magic_defense: attrib[17].replace('● Magic Defense',''),
-                                      basic_atk_crit_rate: attrib[18].replace('● Basic ATK Crit Rate',''),
-                                      hp: attrib[19].replace('● HP',''),
-                                      mana: attrib[20].replace('● Mana',''),
-                                      ability_crit_rate: attrib[21].replace('● Ability Crit Rate',''),
-                                      hp_regen: attrib[22].replace('● HP Regen',''),
-                                      mana_regen: attrib[23].replace('● Mana Regen','')
+                                      hp: attrib[12].replace('● HP',''),
+                                      mana: attrib[13].replace('● Mana',''),
+                                      hp_regen: attrib[14].replace('● HP Regen',''),
+                                      mana_regen: attrib[15].replace('● Mana Regen',''),
+                                      physical_attack: attrib[16].replace('● Physical Attack',''),
+                                      magic_power: attrib[17].replace('● Magic Power',''),
+                                      physical_defence: attrib[18].replace('● Physical Defence',''),
+                                      magic_defence: attrib[19].replace('● Magic Defence',''),
+                                      attack_speed: attrib[20].replace('● Attack Speed',''),
+                                      movement_speed: attrib[21].replace('● Movement SPD',''),
+                                      attack_speed: attrib[22].replace('● Attack SPD','')
                                  },
                                  price: {
                                       battle_point: mw[1].split('|')[0].replace(/ /g,''),
