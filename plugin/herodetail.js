@@ -68,7 +68,6 @@ function herodetails(name) {
                                       magic_power: attrib[17].replace('● Magic Power',''),
                                       physical_defence: attrib[18].replace('● Physical Defence',''),
                                       magic_defence: attrib[19].replace('● Magic Defence',''),
-                                      attack_speed: attrib[20].replace('● Attack Speed',''),
                                       movement_speed: attrib[21].replace('● Movement SPD',''),
                                       attack_speed: attrib[22].replace('● Attack SPD','')
                                  },
