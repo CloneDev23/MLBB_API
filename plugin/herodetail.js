@@ -13,7 +13,7 @@ function herodetails(name) {
                        splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
                   }
                   const que = splitStr.join(' ')
-                  Axios.get('https://mobile-legends.fandom.com/wiki/' + que + '?mobileaction=toggle_view_desktop')
+                  Axios.get('https://mobile-legends.fandom.com/wiki/' + que)
                   .then(({ data }) => {
                        const $ = cheerio.load(data)
                        let mw = []
