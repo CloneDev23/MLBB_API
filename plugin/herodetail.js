@@ -60,7 +60,7 @@ function herodetails(name) {
                                       chara
                                  },
                                  attributes: {
-                                      hp: attrib[12].replace('',''),
+                                      hp: attrib[12].replace(''),
                                       mana: attrib[13].replace('',''),
                                       hp_regen: attrib[14].replace('',''),
                                       mana_regen: attrib[15].replace('',''),
