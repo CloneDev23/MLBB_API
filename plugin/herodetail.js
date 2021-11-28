@@ -69,7 +69,7 @@ function herodetails(name) {
                                       physical_defence: attrib[18].replace('● Physical Defence',''),
                                       magic_defence: attrib[19].replace('● Magic Defence',''),
                                       movement_speed: attrib[21].replace('● Movement SPD',''),
-                                      attack_speed: attrib[22].replace('● Attack SPD','')
+                                      attack_speed: attrib[20].replace('● Attack SPD','')
                                  },
                                  price: {
                                       battle_point: mw[1].split('|')[0].replace(/ /g,''),
