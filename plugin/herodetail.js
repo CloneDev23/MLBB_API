@@ -61,15 +61,15 @@ function herodetails(name) {
                                  },
                                  attributes: {
                                       hp: attrib[12].replace('● HP',''),
-                                      mana: attrib[13].replace('● MANA',''),
-                                      hp_regen: attrib[14].replace('● HP REGEN',''),
-                                      mana_regen: attrib[15].replace('● MANA REGEN',''),
-                                      physical_attack: attrib[16].replace('● PHYSICAL ATTACK',''),
-                                      magic_power: attrib[17].replace('',''),
-                                      physical_defence: attrib[18].replace('',''),
-                                      magic_defence: attrib[19].replace('',''),
-                                      movement_speed: attrib[21].replace('',''),
-                                      attack_speed: attrib[20].replace('','')
+                                      mana: attrib[13].replace('● Mana',''),
+                                      hp_regen: attrib[14].replace('● HP Regen',''),
+                                      mana_regen: attrib[15].replace('● Mana Regen',''),
+                                      physical_attack: attrib[16].replace('● Physical Attack',''),
+                                      magic_power: attrib[17].replace('● Magic Power',''),
+                                      physical_defence: attrib[18].replace('● Physical Defense',''),
+                                      magic_defence: attrib[19].replace('● Magic Defense',''),
+                                      movement_speed: attrib[21].replace('● Movement SPD',''),
+                                      attack_speed: attrib[20].replace('● Attack Speed','')
                                  },
                                  price: {
                                       battle_point: mw[1].split('|')[0].replace(/ /g,''),
