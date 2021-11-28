@@ -60,13 +60,13 @@ function herodetails(name) {
                                       chara
                                  },
                                  attributes: {
-                                      movement_speed: attrib[12].replace('● Movement Speed',''),
+                                      movement_speed: attrib[18].replace('● Movement Speed',''),
                                       physical_attack: attrib[13].replace('● Physical Attack',''),
                                       magic_power: attrib[14].replace('● Magic Power',''),
                                       attack_speed: attrib[15].replace('● Attack Speed',''),
                                       physical_defense: attrib[16].replace('● Physical Defense',''),
                                       magic_defense: attrib[17].replace('● Magic Defense',''),
-                                      basic_atk_crit_rate: attrib[18].replace('● Basic ATK Crit Rate',''),
+                                      basic_atk_crit_rate: attrib[12].replace('● Basic ATK Crit Rate',''),
                                       hp: attrib[19].replace('● HP',''),
                                       mana: attrib[20].replace('● Mana',''),
                                       ability_crit_rate: attrib[21].replace('● Ability Crit Rate',''),
