@@ -60,18 +60,18 @@ function herodetails(name) {
                                       chara
                                  },
                                  attributes: {
-                                      movement_speed: attrib[21].replace('● Movement Speed',''),
-                                      physical_attack: attrib[16].replace('● Physical Attack',''),
-                                      magic_power: attrib[17].replace('● Magic Power',''),
-                                      attack_speed: attrib[22].replace('● Attack Speed',''),
+                                      movement_speed: attrib[14].replace('● Movement Speed',''),
+                                      physical_attack: attrib[15].replace('● Physical Attack',''),
+                                      magic_power: attrib[16].replace('● Magic Power',''),
+                                      attack_speed: attrib[17].replace('● Attack Speed',''),
                                       physical_defense: attrib[18].replace('● Physical Defense',''),
                                       magic_defense: attrib[19].replace('● Magic Defense',''),
-                                      basic_atk_crit_rate: attrib[12].replace('● Basic ATK Crit Rate',''),
-                                      hp: attrib[14].replace('● HP',''),
-                                      mana: attrib[20].replace('● Mana',''),
-                                      ability_crit_rate: attrib[13].replace('● Ability Crit Rate',''),
-                                      hp_regen: attrib[15].replace('● HP Regen',''),
-                                      mana_regen: attrib[23].replace('● Mana Regen','')
+                                      basic_atk_crit_rate: attrib[20].replace('● Basic ATK Crit Rate',''),
+                                      hp: attrib[21].replace('● HP',''),
+                                      mana: attrib[22].replace('● Mana',''),
+                                      ability_crit_rate: attrib[23].replace('● Ability Crit Rate',''),
+                                      hp_regen: attrib[24].replace('● HP Regen',''),
+                                      mana_regen: attrib[25].replace('● Mana Regen','')
                                  },
                                  price: {
                                       battle_point: mw[1].split('|')[0].replace(/ /g,''),
