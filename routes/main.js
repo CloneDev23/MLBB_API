@@ -1,3 +1,6 @@
+__path = process.cwd()
+const express = require('express');
+const router = express.Router();
 
 // Scrapernya
 const { herodetails } = require(__path + '/plugin/herodetail')
