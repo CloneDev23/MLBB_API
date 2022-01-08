@@ -2,9 +2,9 @@
   "name": "app",
   "version": "0.0.1",
   "description": "there is not any",
-  "main": "nodemon app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "app.js"
   },
   "author": "Kotzyy",
   "license": "ISC",
