@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Scrapernya
 const { herodetails } = require(__path + '/plugin/herodetail')
-const { herolist } = require(__path + '/plugin/herolist')
+const { herolists } = require(__path + '/plugin/herolist')
 
 router.get('/', (req, res) => {
     res.status(200).json({
@@ -21,6 +21,18 @@ router.get('/herodetail', async (req, res, next) => {
      const query = req.query.query;
            
      herodetails(query).then(result => {
+        res.status(200).send({result});
+    }).catch(error => {
+        console.log(error);
+        res.status(500).send({
+            status: 500,
+            message: 'Internal Server Error'
+        })
+    });
+router.get('/herolist', async (req, res, next) => {
+     const query = req.query.query;
+           
+     heroliste(query).then(result => {
         res.status(200).send({result});
     }).catch(error => {
         console.log(error);
