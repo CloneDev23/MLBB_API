@@ -106,3 +106,5 @@ function herolist(){
                   }).catch((e) => reject({ status: 404, message: e.message }))
              })
         }
+module.exports.herodetail = herodetail
+module.exports.herolist = herolist
