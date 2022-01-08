@@ -1,7 +1,5 @@
 const {
-	herodetail,
-	herolist
+       herolist
 } = require('./plugin/main')
 
-module.exports.herodetail = herodetail
 module.exports.herolist = herolist
