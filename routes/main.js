@@ -28,7 +28,7 @@ router.get('/herodetail', async (req, res, next) => {
             status: 500,
             message: 'Internal Server Error'
         })
-    });
+   
 router.get('/herolist', async (req, res, next) => {
      const query = req.query.query;
            
@@ -40,7 +40,7 @@ router.get('/herolist', async (req, res, next) => {
             status: 500,
             message: 'Internal Server Error'
         })
-    });
+    })});
 })
 
 
