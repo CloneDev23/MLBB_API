@@ -29,7 +29,7 @@ router.get('/herodetail', async (req, res, next) => {
     });
 })
 
-const { herodetails } = require(__path + '/plugin/herodetail')
+const { herolists } = require(__path + '/plugin/herolist')
 
 
 router.get('/herolist', async (req, res, next) => {
