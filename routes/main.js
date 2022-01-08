@@ -40,7 +40,7 @@ router.get('/herolist', async (req, res, next) => {
             status: 500,
             message: 'Internal Server Error'
         })
-    })});
+    });
 })
 
 
