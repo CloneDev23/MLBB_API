@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
 const { default: Axios } = require('axios');
 
-function herolist(){
+function herolists(){
             return new Promise((resolve, reject) => {
                   axios.get('https://mobile-legends.fandom.com/wiki/Mobile_Legends:_Bang_Bang_Wiki')
                   .then(({ data }) => {
@@ -18,4 +18,4 @@ function herolist(){
                   }).catch((e) => reject({ status: 404, message: e.message }))
              })
         }
-module.exports.herolist = herolist
+module.exports.herolists = herolists
