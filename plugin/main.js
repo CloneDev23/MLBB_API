@@ -1,5 +1,6 @@
-const cheerio = require('cheerio');
-const { default: Axios } = require('axios');
+const cheerio = require("cheerio")
+const axios = require("axios")
+const qs = require("qs")
 
 function herodetails(name) {
              return new Promise((resolve, reject) => {
