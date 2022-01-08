@@ -10,9 +10,9 @@ router.get('/', (req, res) => {
     	status: false,
     	message: "Sorry, the page you are looking for doesn't exist",
       feature: {
-        	herodetail: "https://" + req.hostname + "/herodetail?query=Zilong",
+        	herodetail: "https://" + req.hostname + "/herodetail?query=Zilong"},{
                 herodetail: "https://" + req.hostname + "/herodetail?query=Zilong"
-      }
+      }}
 })
 })
 
