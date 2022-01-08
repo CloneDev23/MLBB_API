@@ -19,7 +19,7 @@ router.get('/herodetail', async (req, res, next) => {
      const query = req.query.query;
            
      herodetails(query).then(result => {
-        res.status(200).send({creator: "Kotzyy", status: 200, result: result});
+        res.status(200).send({result});
     }).catch(error => {
         console.log(error);
         res.status(500).send({
