@@ -2,10 +2,13 @@
   "name": "app",
   "version": "0.0.1",
   "description": "there is not any",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "app.js"
+    "start": "index.js"
   },
+  "keywords": [
+    "Module Api"
+  ],
   "author": "Kotzyy",
   "license": "ISC",
   "dependencies": {
