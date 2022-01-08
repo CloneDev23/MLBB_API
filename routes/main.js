@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
     	message: "Sorry, the page you are looking for doesn't exist",
       feature: {
         	herodetail: "https://" + req.hostname + "/herodetail?query=Zilong"
+                herodetail: "https://" + req.hostname + "/herodetail?query=Zilong"
       }
 })
 })
