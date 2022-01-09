@@ -15,7 +15,7 @@ function herolist(){
                             data_hero.push(name)
                             url.push(urln)
                        })
-                       $('div > div > span > span > span > a').get().map((result) => {
+                       $('div > div > div > span > span > span > a').get().map((result) => {
                      
                             const role = decodeURIComponent($(result).attr('href').replace('/wiki/',''))
                             const urln = 'https://mobile-legends.fandom.com' + $(result).attr('href')
