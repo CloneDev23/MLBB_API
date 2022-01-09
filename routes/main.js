@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Scrapernya
 const { herodetails } = require(__path + '/plugin/herodetail')
-const { herolist } = require(__path + '/plugin/herolist')
+const { herolists } = require(__path + '/plugin/herolist')
 
 router.get('/', (req, res) => {
     res.status(200).json({
@@ -32,7 +32,7 @@ router.get('/herodetail', async (req, res, next) => {
 })
 
 router.get('/listhero', async (req, res, next) => {
-        herolist(query).then(result => {
+        herolists(query).then(result => {
         res.status(200).send({status: 200, result: result});
     }).catch(error => {
         console.log(error);
